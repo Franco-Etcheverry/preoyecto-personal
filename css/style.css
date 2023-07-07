@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*font-family:'Roboto', sans-serif;*/
+
+@font-face {
+    font-family: Tipografia Logo;
+    src: url(../assets/fonts/Leaner-Thin.ttf);
+}
+
+.logo-principal{
+    width: 300px;
+    height: 100px;
+    position: relative;
+    left: 570px;
+}
+
+h1{
+    display: none;
+}
+
+.linea{
+    margin-bottom: 3px;
+    border-bottom: solid 2px #ff7546
+}
+.nav-bar ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content:;
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family:'Roboto', sans-serif;
+    color: #ff7546;
+    margin: 30px;
+    padding: 3px;
+    border: solid 2px #ff7546;
+}
+.buscador-carrito-login{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.buscador-carrito-login img{
+    margin: 3px;
+    padding: 3px;
+    
+}
+.main{
+    background-image:url(../assets/img/background.png);
+}
+.carrusel h2{
+    font-family: Tipografia Logo;
+    color: #474747;;
+}
+.carrusel img{
+    width: 100%;
+    height: 25rem;
+}
+
+.cards h3 h4{
+    font-family: Tipografia Logo;
+    color: #ff7546;
+}
+
+.cards p{
+    font-family: 'Roboto', sans-serif;
+    color: #474747;
+}
+
+.cards{
+    font-family: 'Roboto', sans-serif;
+}
+.contacto ul{
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color:aliceblue;
+    background-color: #ff7546;
+}
+.contacto li a{
+    list-style: none;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.formulario h2{
+    font-family: Tipografia Logo;
+    font-size: 3rem;
+    color: #474747;
+}
