@@ -10,6 +10,7 @@
     src: url(../assets/fonts/Leaner-Thin.ttf);
 }
 
+/* HEADER */
 .logo-principal{
     width: 300px;
     height: 100px;
@@ -76,7 +77,9 @@ nav{
 main{
     background-image:url(../assets/img/background.png);
 }
+/* FIN DEL HEADER */
 
+/* MAIN */
 .carrusel{
     display: flex;
     justify-content: center;
@@ -95,6 +98,12 @@ h2{
     color: #474747;
     width: 31.25rem;
     height: 6.25rem;
+}
+
+.ropa-iconos-container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
 }
 
 .cards-container{
@@ -134,7 +143,9 @@ h2{
 .card img{
     width: 100%;
 }
+/* FIN DEL MAIN */
 
+/* FOOTER */
 .contacto{
     display: grid;
     width: 100%;
@@ -199,7 +210,9 @@ h2{
     grid-row-start: 4;
     grid-row-end: 5;
 }
+/* FIN DEL FOOTER */
 
+/* MEDIA QUERIES */
 @media(max-width: 1100px){
     .nav-bar ul li a{
         margin: 3.75rem;
