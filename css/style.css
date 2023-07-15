@@ -103,7 +103,18 @@ h2{
 .ropa-iconos-container{
     display: flex;
     flex-direction: row;
-    justify-content:space-between;
+    justify-content:space-evenly;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 3.125rem;
+}
+
+.ropa-iconos{
+    border: .3125rem solid #ff7546;
+}
+
+.ropa-iconos:hover{
+    box-shadow: .3125rem .3125rem .3125rem #474747;
 }
 
 .cards-container{
@@ -142,6 +153,29 @@ h2{
 
 .card img{
     width: 100%;
+}
+
+.marcas-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: repeat(4, 1fr);
+    align-items: center;
+    justify-items: center;
+}
+
+.formulario{
+    font-family: Tipografia Logo;
+    font-size: 3.125rem;
+    color: #474747;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario input{
+    width: 18.75rem;
 }
 /* FIN DEL MAIN */
 
@@ -210,6 +244,7 @@ h2{
     grid-row-start: 4;
     grid-row-end: 5;
 }
+
 /* FIN DEL FOOTER */
 
 /* MEDIA QUERIES */
@@ -294,7 +329,25 @@ h2{
     }
 }
 
-@media (max-width: 470px){
+@media(max-width: 500px){
+    .ropa-iconos-container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .marcas-container{
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(8, 1fr);
+        align-items: center;
+        justify-items: center;
+        margin-top: 3.125rem;
+    }
+}
+
+@media(max-width: 470px){
     .nav-icons{
         height: 5rem;
         display:flex;
