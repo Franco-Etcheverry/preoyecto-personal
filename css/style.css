@@ -176,6 +176,12 @@ h2{
 
 .formulario input{
     width: 18.75rem;
+    height: 1.875rem;
+}
+
+textarea{
+    width: 18.75rem;
+    height: 3.125rem;
 }
 /* FIN DEL MAIN */
 
